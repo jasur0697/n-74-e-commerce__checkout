@@ -1,0 +1,247 @@
+<!doctype html>
+<html class="h-100" lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Countries</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="d-flex flex-column h-100 bg-white text-dark">
+
+  <header class="sr-only">
+    <h1>Freshnesecom - checkout</h1>
+  </header>
+
+  <main class="site-main flex-grow-1 py-4 py-md-5">
+
+  <h2 class="sr-only"></h2>
+  <div class="container">
+  <nav aria-label="breadcrumb">
+  
+    <ol class="breadcrumb bg-white">
+      <li class="breadcrumb-item"><a href="#">Homepage</a></li>
+      <li class="breadcrumb-item active" aria-current="page">Checkout page</li>
+    </ol>
+
+  </nav>
+
+
+  <div class="row">
+    <div class="col-7 ">
+      <h2 class="font-weight-bolder">Billing info</h2>
+      <div class="d-flex align-items-sm-start justify-content-between">
+        <p class="text-black-50 mb-lg-4">Please enter your billing info</p>
+        <span class="text-black-50">Step 1 of 5</span>
+      </div>
+      
+      <form class="col justify-content-between form_css p-0"action="http://foo.com"  method="GET">
+
+        <div class="row mb-md-2">
+        <div class="form-group col-md-6 mb-3">
+          <label class="font-weight-bold" for="formGroupExampleInput2">First name</label>
+          <input type="text" class="form-control  w-100 bg-light" id="formGroupExampleInput2" placeholder="Another input">
+        </div>
+        <div class="form-group col-md-6 mb-3">
+          <label class="font-weight-bold" for="formGroupExampleInput2">Last name</label>
+          <input type="text" class="form-control  w-100 bg-light" id="formGroupExampleInput2" placeholder="Another input">
+        </div>
+        </div>
+
+        <div class="row mb-md-2">
+          <div class="form-group col-md-6 mb-3">
+            <label class="font-weight-bold" for="formGroupExampleInput2">Email address</label>
+            <input type="email" class="form-control  w-100 bg-light" id="formGroupExampleInput2" placeholder="Email addess">
+          </div>
+          <div class="form-group col-md-6 mb-3">
+            <label class="font-weight-bold" for="formGroupExampleInput2">Phone number</label>
+            <input type="number" class="form-control  w-100 bg-light" id="formGroupExampleInput2" placeholder="Phone number">
+          </div>
+        </div>
+
+          <div class="row mb-md-2">
+            <div class="form-group col-md-6 mb-3">
+              <label class="font-weight-bold" for="formGroupExampleInput2">Address</label>
+              <input type="text" class="form-control  w-100 bg-light" id="formGroupExampleInput2" placeholder="Adress">
+            </div>
+            <div class="form-group col-md-6 mb-3">
+              <label class="font-weight-bold" for="formGroupExampleInput2">Town / City</label>
+              <input type="text" class="form-control  w-100 bg-light" id="formGroupExampleInput2" placeholder="Town / City">
+            </div>
+          </div>
+
+            <div class="row mb-md-2">
+              <div class="select-country form-group col-md-6 mb-3">
+                <label class="font-weight-bold" for="formGroupExampleInput2">ZIP/Postal code</label>
+                <select class="custom-select bg-light rounded-lg" id="validationDefault07" name="country" required="">
+                  <option value="state_or_country" selected="" disabled="">Choose a state or Country</option>
+                  <option value="Uzbekistan">Uzbekistan</option>
+                  <option value="USA">USA</option>
+                  <option value="Russia">Russia</option>
+                  <option value="France">France</option>
+                </select>
+              </div>
+
+              
+              <div class="form-group col-md-6 mb-3">
+                <label class="font-weight-bold" for="formGroupExampleInput2">Postal code or ZIP</label>
+                <input type="text" class="form-control  w-100 bg-light" id="formGroupExampleInput2" placeholder="Postal code or ZIP">
+              </div>
+            </div>
+
+            <div class="different-shipping__address form-check">
+              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+              <label class="form-check-label" for="defaultCheck1">
+                Ship to a different address?
+              </label>
+            </div>
+
+      </form>
+
+    </div>
+
+
+    <div class="col-7 mt-lg-5">
+      <div class="col p-0">
+      <h2 class="font-weight-bolder">Billing method</h2>
+      <div class="d-flex align-items-sm-start justify-content-between">
+        <p class="text-black-50 mb-lg-4">Please enter your payment method</p>
+        <span class="text-black-50">Step 2 of 5</span>
+      </div>
+
+      </div>
+      <form class="col justify-content-between form_css p-0"action="http://foo.com"  method="GET">
+         <div class="form-check post-methods fedex different-shipping__address w-100 mb-sm-3">
+          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+          <label class="font-weight-bold post-label form-check-label align-items-center" for="exampleRadios1">
+            FedEx <span class="post__price" >+32 USD</span>Additional price
+          </label>
+        </div>
+
+        <div class="form-check post-methods dhl different-shipping__address w-100">
+          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+          <label class="font-weight-bold post-label form-check-label align-items-center" for="exampleRadios1">
+            DHL <span class="post__price" >+15 USD</span>Additional price
+          </label>
+        </div>
+    </form>
+
+    </div>
+
+    <div class="col-7 mt-lg-5">
+      <div class="col p-0">
+      <h2 class="font-weight-bolder">Payment method</h2>
+      <div class="d-flex align-items-sm-start justify-content-between">
+        <p class="text-black-50 mb-lg-4">Please enter your payment method</p>
+        <span class="text-black-50">Step 3 of 5</span>
+      </div>
+
+      </div>
+      <form class="col justify-content-between form_css p-0"action="http://foo.com"  method="GET">
+         <div class="form-check post-methods  paypal different-shipping__address w-100 mb-sm-3">
+          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+          <label class="font-weight-bold post-label form-check-label align-items-center" for="exampleRadios1">
+            PayPal 
+          </label>
+        </div>
+
+        <div class="form-check post-methods bitcoin different-shipping__address w-100">
+          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+          <label class="font-weight-bold post-label form-check-label align-items-center" for="exampleRadios1">
+            Bitcoin
+          </label>
+        </div>
+    </form>
+
+    </div>
+
+
+    <div class="col-7 mt-lg-5">
+      <div class="col p-0">
+      <h2 class="font-weight-bolder">Additional informations</h2>
+      <div class="d-flex align-items-sm-start justify-content-between">
+        <p class="text-black-50 mb-lg-4">Need something else? We will make it for you!</p>
+        <span class="text-black-50">Step 4 of 5</span>
+      </div>
+
+      </div>
+      <form class="col justify-content-between form_css p-0"action="http://foo.com"  method="GET">
+        
+        <div class="form-group">
+          <label class=" font-weight-bold mb-0" for="exampleFormControlTextarea1">Order notes</label>
+          <textarea class="rounded additional-textarea form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Need a specific delivery day? Sending a gitf? Let’s say ..."></textarea>
+        </div>
+
+      </form>
+
+    </div>
+
+
+    <div class="col-7 mt-lg-5">
+      <div class="col p-0">
+      <h2 class="font-weight-bolder">Confirmation</h2>
+      <div class="d-flex align-items-sm-start justify-content-between">
+        <p class="text-black-50 mb-lg-4">We are getting to the end. Just few clicks and your order si ready!</p>
+        <span class="text-black-50">Step 5 of 5</span>
+      </div>
+
+      </div>
+      <form class="col justify-content-between form_css p-0"action="http://foo.com"  method="GET">
+        
+        <div class="different-shipping__address form-check w-100">
+          <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+          <label class="form-check-label" for="defaultCheck1">
+            I agree with sending an Marketing and newsletter emails. No spam, promissed!
+          </label>
+        </div>
+
+        <div class="different-shipping__address form-check w-75 mt-lg-4 mb-4">
+          <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+          <label class="form-check-label" for="defaultCheck1">
+            I agree with our terms and conditions and privacy policy.
+          </label>
+        </div>
+
+        <button type="button" class="rounded-lg font-weight-bold order-button btn btn-success">Complete order</button>
+     
+
+      </form>
+
+      <div class="data-safety mt-lg-5">
+        <h3 class="data-safety__heading">All your data are safe</h3>
+        <p class="data-safety__desc">We are using the most advanced security to provide you the best experience ever.</p>
+      </div>
+
+    </div>
+
+
+
+
+
+
+    <div  class="col-5">
+     
+    </div>
+  </div>
+</div>  
+  
+  
+
+
+ 
+
+
+  </main>
+
+<div class="container">
+  <footer class="site-footer py-lg-5 my-1 text-left bg-white">
+
+      <p class="mb-0 small">Copyright &copy; Jasurbek corporation.</p>
+
+  </footer>
+</div>
+
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

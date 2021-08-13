@@ -1,0 +1,111 @@
+
+.breadcrumb > .active {
+  color:#151515;
+}
+
+
+input::placeholder {
+  color: #A9A9A9;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+textarea::placeholder {
+  color: #A9A9A9;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.additional-textarea {
+  resize: none;
+}
+
+.different-shipping__address {
+  background-color: #F9F9F9;
+  border: 1px solid  #D1D1D1;
+  border-radius: 12px;
+  width: 48%;
+  padding: 11px 11px 11px 48px;
+}
+
+.post-label {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  color: #151515;
+}
+
+.post__price {
+  color:#6A983C;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  margin-left: 150px;
+  margin-right: 20px;
+}
+
+.dhl {
+  background-image: url("/img/dhl.png");
+  background-repeat: no-repeat;
+  background-size: 94px;
+  background-position: calc(50% + 250px);
+  }
+
+.fedex {
+background-image: url("/img/FedEx_Express.png");
+background-repeat: no-repeat;
+background-size: 54px;
+background-position: calc(50% + 250px);
+}
+
+.paypal {
+  background-image: url("/img/PayPal.png");
+  background-repeat: no-repeat;
+  background-size: 76px;
+  background-position: calc(50% + 250px);
+}
+
+.bitcoin {
+  background-image: url("/img/Bitcoin_logo.png");
+  background-repeat: no-repeat;
+  background-size: 75px;
+  background-position: calc(50% + 250px);
+}
+
+
+.order-button {
+  padding: 16.5px 48px;
+  background-color: #6A983C;
+
+}
+
+.data-safety {
+  width: 215px;
+}
+
+.data-safety__heading {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  color:  #151515;;
+}  
+
+.data-safety__heading::before {
+  content:"";
+  display: block;
+  width: 29px;
+  height: 29px;
+  background-image: url(/img/ic-security-safety.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+
+.data-safety__desc {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #A9A9A9;
+}
